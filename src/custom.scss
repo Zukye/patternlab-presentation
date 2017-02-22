@@ -1,0 +1,84 @@
+$lightbg: #F2F0D8;
+$orange: #BE6700; //#D97F38;
+
+.topArea {
+  position: relative;
+  background-color: $lightbg;
+  color: $orange;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -9999px;
+    right: 0;
+    border-left: 9999px solid $lightbg;
+    box-shadow: 9999px 0 0 $lightbg;
+    background-color: $lightbg;
+    margin-top: -999px;
+    z-index: -1;
+  }
+}
+
+.atom-input {
+  margin: 0 auto 28px 40px !important;
+}
+
+
+.atom-label {
+  margin: 0 auto 20px 40px !important;
+}
+
+.atom-button {
+  margin: 0 auto 9px 40px !important;
+}
+
+.atom-icon {
+  margin: 14px auto 8px 0 !important;
+}
+
+
+.twoColTxt {
+  max-width: 50% !important;
+  float: left;
+  font-size: 30px !important;
+}
+
+
+.magic-meme {
+  width: 18%;
+  position: absolute;
+  top: 120px;
+  right: 0px;
+}
+
+.left {
+  min-width: 49% !important;
+  max-width: 49% !important;
+  float: left;
+  font-size: 11px !important;
+}
+
+.right {
+  min-width: 49% !important;
+  max-width: 49% !important;
+  float: right;
+}
+
+.width20 {
+  min-width: 20% !important;
+  max-width: 20% !important;
+}
+
+.mirror {
+  transform: rotate(25deg) scaleY(-1);
+  position: absolute;
+  content: " ";
+  left: 384px;
+  top: 207px;
+}
+
+.center {
+  text-align: center;
+}

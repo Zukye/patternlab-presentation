@@ -1,0 +1,7 @@
+<select id="select">
+    <optgroup label="Select">
+        <option>{{option1}}</option>
+        <option>{{option2}}</option>
+        <option>{{option3}}</option>
+    </optgroup>
+</select>

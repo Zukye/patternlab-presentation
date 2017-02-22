@@ -1,0 +1,11 @@
+<form class="c-form c-form--stacked" method="post" action="{{ link.pages-dashboard }}">
+  {{> atoms-select-menu}}
+
+  {{# fields }}
+    {{> molecules-field }}
+  {{/ fields }}
+
+  <div class="c-form__actions">
+    {{> atoms-button }}
+  </div>
+</form>

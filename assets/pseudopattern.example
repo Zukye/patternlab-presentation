@@ -1,0 +1,6 @@
+### login~textarea.json ###
+
+{
+  "textarea" : true,
+  "btnText" : "Login mit Textarea!"
+}

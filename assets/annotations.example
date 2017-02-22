@@ -1,0 +1,11 @@
+{
+  "comments" : [
+    {
+      "el": ".c-logo-link",
+      "title" : "Logo",
+      "comment": "The logo image is an SVG file, which
+      ensures that the logo displays crisply even on high resolution
+       displays."
+    }
+  ]
+}
